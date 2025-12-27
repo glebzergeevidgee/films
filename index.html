@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>КОТОПОИСК</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+    <style>
+        .card:hover {
+            transform: scale(1.015);
+            transition: transform 0.3s ease;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .rating-stars {
+            color: #3bff9d;
+            font-size: 1.2rem;
+        }
+
+        .description {
+            max-height: 4.2rem;
+            overflow: hidden;
+            color: #0b0000;
+            text-overflow: ellipsis;
+            font-size: 0.95rem;
+        }
+
+        .badge-genre {
+            background-color: #8A5E20;
+            color: #3bff9d;
+            font-weight: 500;
+            font-size: 0.8rem;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffad3b;">
+        <div class="container">
+            <a class="navbar-brand me-5"
+                href="#"
+                style="color: #614216; font-size: 24px; font-weight: bold;">
+                 Поиск</a>
+            <div class="d-flex">
+                <a class="nav-link me-4" href="#" style="color: #614216; font-size: 20px;">Все жанры</a>
+                <a class="nav-link" href="#" style="color: #614216; font-size: 20px;">О нас</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                        <img src="img.png">
+                </div>
+
+                <div class="col">
+                    <h1>Кибердеревня</h1>
+                    <ul>
+                        <li>Год выпуска: 2023</li>
+                        <li>Рейтинг: 8.1</li>
+                        <li>
+                            Жанр:
+                                <span class="badge text-bg-warning rounded-pill">Комедия</span>
+                                <span class="badge text-bg-warning rounded-pill">Приключения</span>
+                        </li>
+                    </ul>
+                    <p>2100 год. Николай счастливо живет с семьей в кибердеревне на Марсе.
+                        Он спокойно ведет роботизированное хозяйство, пока на планету не прилетает
+                        руководитель огромной корпорации — Барагозин, который хочет построить
+                        на месте деревни новый завод. Николай отправляется в полное опасностей
+                        и приключений путешествие до Земли, чтобы спасти свой дом.</p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="text-center py-3" style="background-color: #8A5E20; color: white">
+        <div class="container">
+            <p class="mb-2">2025 Copyright</p>
+            <p class="mb-3">Все права защищены</p>
+            <p class="fs-5 fw-bold mb-0">Поиск</p>
+        </div>
+    </footer>
+</body>
+</html>
